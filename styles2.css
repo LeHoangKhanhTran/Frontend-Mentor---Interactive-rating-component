@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: Overpass;
-    src: url("D:\\interactive-rating-component-main\\interactive-rating-component-main\\Overpass\\Overpass-VariableFont_wght.ttf");
+    src: url("./Overpass/Overpass-VariableFont_wght.ttf");
 }
 
 .container {
