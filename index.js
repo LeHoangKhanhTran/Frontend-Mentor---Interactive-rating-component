@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     ratingElements.forEach(e => {
         e.addEventListener("click", () => {
             ratingElements.forEach(e => {
-               e.className="rating";
+               e.className = "rating inactive"
             })
-            e.className = "rating2";
+            e.className = "rating active";
             rating = e.value;
         })
     })
